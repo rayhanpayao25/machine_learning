@@ -308,10 +308,17 @@ section {
   justify-content: space-between;
 }
 
-/* Mobile responsiveness for tablets and phones */
+/* Enhanced mobile responsiveness */
+@media (max-width: 1200px) {
+  .name h1 {
+    font-size: 8em;
+    letter-spacing: 15px;
+  }
+}
+
 @media (max-width: 1024px) {
   .name h1 {
-    font-size: 3em;
+    font-size: 6em;
     letter-spacing: 10px;
   }
 
@@ -352,7 +359,7 @@ section {
   }
 
   .name h1 {
-    font-size: 2.5em; /* Smaller title on tablets */
+    font-size: 4em; /* Improved size for tablets */
     letter-spacing: 5px;
   }
 
@@ -386,8 +393,8 @@ section {
 
 @media (max-width: 480px) {
   .name h1 {
-    font-size: 1em; /* Much smaller title on mobile */
-    letter-spacing: 2px;
+    font-size: 3em; /* Better size for mobile */
+    letter-spacing: 3px;
   }
 
   .name p {
@@ -424,8 +431,8 @@ section {
 /* Extra small devices */
 @media (max-width: 320px) {
   .name h1 {
-    font-size: 1em; /* Even smaller title on very small devices */
-    letter-spacing: 1px;
+    font-size: 2em; /* Improved size for very small devices */
+    letter-spacing: 2px;
   }
 
   .name p {
