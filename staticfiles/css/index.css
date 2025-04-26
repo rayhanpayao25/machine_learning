@@ -53,23 +53,25 @@ p {
   color: white;
 }
 
-/* Modified button styles to work in the new position */
+/* Modified button styles with red background and hover effect */
 .btnLogin-popup {
   width: 100px;
   height: 35px;
-  background: red;
+  background: #e50914; /* Netflix red */
   border: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 1.2rem;
   color: rgb(255, 255, 255);
   font-weight: 800;
-  transition: .5s;
+  transition: all 0.3s ease;
   margin-top: 20px; /* Add space between text and button */
 }
 
 .btnLogin-popup:hover {
-  background: rgb(138, 65, 65);
+  background: #ff0036; /* Brighter red on hover */
+  transform: scale(1.05); /* Slight grow effect */
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Red glow */
 }
 
 .wrapper {
@@ -84,7 +86,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.5 ease height 0.2 ease;
+  transition: transform 0.5s ease, height 0.2s ease;
   overflow: hidden;
   transform: scale(0);
 }
@@ -152,7 +154,7 @@ p {
 .btn {
   width: 100%;
   height: 45px;
-  background: #000000;
+  background: #e50914; /* Changed to red */
   border: none;
   outline: none;
   border-radius: 6px;
@@ -160,6 +162,11 @@ p {
   font-size: 1em;
   color: white;
   font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background: #ff0036; /* Brighter red on hover */
 }
 
 .login-register {
@@ -345,8 +352,8 @@ section {
   }
 
   .name h1 {
-    font-size: 4em;
-    letter-spacing: 6px;
+    font-size: 3.5em; /* Smaller title on tablets */
+    letter-spacing: 5px;
   }
 
   .name p {
@@ -379,8 +386,8 @@ section {
 
 @media (max-width: 480px) {
   .name h1 {
-    font-size: 2.8em;
-    letter-spacing: 3px;
+    font-size: 2em; /* Much smaller title on mobile */
+    letter-spacing: 2px;
   }
 
   .name p {
@@ -411,5 +418,24 @@ section {
 
   header {
     font-size: 1.2rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 320px) {
+  .name h1 {
+    font-size: 1.5em; /* Even smaller title on very small devices */
+    letter-spacing: 1px;
+  }
+
+  .name p {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+  }
+
+  .btnLogin-popup {
+    width: 80px;
+    height: 30px;
+    font-size: 0.8rem;
   }
 }

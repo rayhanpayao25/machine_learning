@@ -1,192 +1,290 @@
-   
 body {
-font-family: 'Roboto', sans-serif;
-margin: 0;
-padding: 0;
-background-color: #111;
-color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: white;
+  line-height: 1.6;
 }
 
 header {
-background-color: #111;
-padding: 1rem;
-text-align: center;
-color: white;
-font-family: 'Roboto', sans-serif;
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
-   
+
 .navbar {
-display: flex;
-justify-content: space-between;
-align-items: center;
-max-width: 1200px;
-margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
-   
+
 .navbar-brand {
-font-size: 24px;
-font-weight: bold;
-text-decoration: none;
-color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
 }
 
 .logout-btn {
-background-color: #e50914;
-color: white;
-padding: 0.5rem 1rem;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-font-size: 16px;
-text-decoration: none;
+  background-color: #e50914;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #ff0036;
 }
 
 form {
-text-align: center;
-margin-bottom: 1rem;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 0 1rem;
 }
-   
+
 label {
-font-weight: bold;
-font-size: 18px;
-color: #ccc;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ccc;
+  display: block;
+  margin-bottom: 0.5rem;
 }
-   
+
 select {
-padding: 8px;
-font-size: 16px;
-margin-right: 1rem;
-background-color: #333;
-color: white;
-border: 1px solid #555;
-border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 1rem;
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 5px;
+  width: auto;
+  min-width: 150px;
 }
-   
+
 button {
-padding: 8px 20px;
-font-size: 16px;
-background-color: #e50914;
-color: #fff;
-border: none;
-cursor: pointer;
-border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
- background-color: #ff0036;
+  background-color: #ff0036;
 }
-          
+
 #sample-movies {
-max-width: 1200px;
-margin: 0 auto;
-padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
-           
+
 #sample-movies h2 {
-text-align: center;
-font-size: 24px;
-margin-bottom: 1rem;
-color: #ccc;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  color: #ccc;
 }
 
 ul {
-padding: 0;
-margin: 0;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-}
-   
-li {
-margin: 0.5rem;
-flex: 0 0 calc(25% - 1rem);
-background-color: #222;
-border-radius: 5px;
-overflow: hidden;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-   
-li img {
-width: 100%;
-height: 70%;
-display: block;
-}
-   
-li p {
-padding: 1rem;
-margin: 0;
-font-size: 16px;
-color: #ccc;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
 }
 
-  
-h1{
-font-size: 0.8em;
-font-weight: 100;
-margin: 0;
-padding: 1rem;
-  } 
-   
-  @media (max-width: 768px) {
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 1rem;
-    }
-  
-    .logout-btn {
-      margin-top: 1rem;
-      width: 100%;
-      text-align: center;
-    }
-  
-    form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 0 1rem;
-    }
-  
-    select,
-    button {
-      width: 100%;
-      margin: 0.5rem 0;
-    }
-  
-    ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    li {
-      flex: 0 0 90%;
-    }
-  
-    li img {
-      height: auto;
-    }
+li {
+  background-color: #222;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+li:hover {
+  transform: translateY(-5px);
+}
+
+li img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+li p {
+  padding: 1rem;
+  margin: 0;
+  font-size: 16px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 0.8em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0 1rem 1rem;
+  color: #999;
+}
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  ul {
+    grid-template-columns: repeat(3, 1fr);
   }
-  
-  @media (max-width: 480px) {
-    header h1,
-    #sample-movies h2 {
-      font-size: 1.2rem;
-    }
-  
-    .navbar-brand {
-      font-size: 20px;
-    }
-  
-    li {
-      flex: 0 0 100%;
-    }
-  
-    li p {
-      font-size: 14px;
-    }
-  
-    h1 {
-      font-size: 0.9em;
-    }
+}
+
+/* Small Tablet Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
   }
-  
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .logout-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 14px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem auto;
+  }
+
+  .form-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  select,
+  button {
+    margin: 0;
+  }
+
+  ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  #sample-movies h2 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  header {
+    padding: 0.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
+  }
+
+  .logout-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 12px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  form {
+    margin: 1rem auto;
+  }
+
+  .form-controls {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  select,
+  button {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  select {
+    min-width: unset;
+  }
+
+  ul {
+    grid-template-columns: 1fr;
+  }
+
+  li {
+    margin: 0 0 1rem 0;
+  }
+
+  li p {
+    font-size: 14px;
+    padding: 0.75rem;
+  }
+
+  h1 {
+    font-size: 0.75em;
+    padding: 0 0.75rem 0.75rem;
+  }
+
+  #sample-movies h2 {
+    font-size: 18px;
+  }
+}
+
+/* Very Small Screens */
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+
+  .logout-btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 11px;
+  }
+
+  label,
+  select,
+  button {
+    font-size: 14px;
+  }
+}
