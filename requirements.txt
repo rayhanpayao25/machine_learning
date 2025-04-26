@@ -1,0 +1,14 @@
+asgiref==3.8.1
+dj-database-url==2.3.0
+Django==5.2
+gunicorn==23.0.0
+joblib==1.4.2
+numpy==2.2.5
+packaging==25.0
+psycopg2==2.9.10
+scikit-learn==1.6.1
+scipy==1.15.2
+sqlparse==0.5.3
+threadpoolctl==3.6.0
+typing_extensions==4.13.2
+tzdata==2025.2
