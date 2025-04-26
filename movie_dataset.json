@@ -1,0 +1,466 @@
+[
+    {
+        "title": "Mad Max: Fury Road",
+        "genre": "Action",
+        "image": "Mad Max Fury Road.jpg",
+        "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search of her homeland with the help of a group of female prisoners, a psychotic worshiper, and a drifter named Max."
+    },
+    {
+        "title": "Alice in Wonderland",
+        "genre": "Fantasy",
+        "image": "Alice in Wonderland.jpg",
+        "description": "A young girl named Alice falls down a rabbit hole into a magical world populated by peculiar creatures."
+    },
+    {
+        "title": "The NeverEnding Story",
+        "genre": "Fantasy",
+        "image": "The NeverEnding Story.jpg",
+        "description": "A troubled boy dives into a wondrous fantasy world through the pages of a mysterious book."
+    },
+    {
+        "title": "The Matrix",
+        "genre": "Action",
+        "image": "The Matrix.jpg",
+        "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+    },
+    {
+        "title": "The Avengers",
+        "genre": "Action",
+        "image": "The Avengers.jpg",
+        "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity."
+    },
+    {
+        "title": "Die Hard",
+        "genre": "Action",
+        "image": "Die Hard.jpg",
+        "description": "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles."
+    },
+    {
+        "title": "Stardust",
+        "genre": "Fantasy",
+        "image": "Stardust.jpg",
+        "description": "In a countryside town bordering on a magical land, a young man makes a promise to his beloved that he'll retrieve a fallen star by venturing into the magical realm."
+    },
+    {
+        "title": "The Princess Bride",
+        "genre": "Fantasy",
+        "image": "The Princess Bride.jpg",
+        "description": "While home sick in bed, a young boy's grandfather reads him the story of a farmboy-turned-pirate who encounters numerous obstacles, enemies, and allies in his quest to be reunited with his true love."
+    },
+    {
+        "title": "John Wick",
+        "genre": "Action",
+        "image": "John Wick.jpg",
+        "description": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him."
+    },
+    {
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "genre": "Romance",
+        "image": "Eternal Sunshine of the Spotless Mind.jpg",
+        "description": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories."
+    },
+    {
+        "title": "500 Days of Summer",
+        "genre": "Romance",
+        "image": "500 Days of Summer.jpg",
+        "description": "An offbeat romantic comedy about a woman who doesn't believe true love exists, and the young man who falls for her."
+    },
+    {
+        "title": "The Princess Diaries",
+        "genre": "Romance",
+        "image": "The Princess Diaries.jpg",
+        "description": "Mia Thermopolis has just found out that she is the heir apparent to the throne of Genovia. With her friends Lilly and Michael Moscovitz in tow, she tries to navigate through the rest of her sixteenth year."
+    },
+    {
+        "title": "Crazy Rich Asians",
+        "genre": "Romance",
+        "image": "Crazy Rich Asians.jpg",
+        "description": "This contemporary romantic comedy, based on a global bestseller, follows native New Yorker Rachel Chu to Singapore to meet her boyfriend's family."
+    },
+    {
+        "title": "Shutter Island",
+        "genre": "Crime",
+        "image": "Shutter Island.jpg",
+        "description": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane."
+    },
+    {
+        "title": "The Silence of the Lambs",
+        "genre": "Crime",
+        "image": "The Silence of the Lambs.jpg",
+        "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+    },
+    {
+        "title": "The Prestige",
+        "genre": "Drama",
+        "image": "The Prestige.jpg",
+        "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other."
+    },
+    {
+        "title": "A Walk to Remember",
+        "genre": "Romance",
+        "image": "A Walk to Remember.jpg",
+        "description": "The story of two North Carolina teens, Landon Carter and Jamie Sullivan, who are thrown together after Landon gets into trouble and is made to do community service."
+    },
+    {
+        "title": "The Chronicles of Narnia Series",
+        "genre": "Fantasy",
+        "image": "The Chronicles of Narnia Series.jpg",
+        "description": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+    },
+    {
+        "title": "The Wizard of Oz",
+        "genre": "Fantasy",
+        "image": "The Wizard of Oz.jpg",
+        "description": "Dorothy Gale is swept away from a farm in Kansas to a magical land of Oz in a tornado and embarks on a quest with her new friends to see the Wizard who can help her return home to Kansas and help her friends as well."
+    },
+    {
+        "title": "The Proposal",
+        "genre": "Romance",
+        "image": "The Proposal.jpg",
+        "description": "A pushy boss forces her young assistant to marry her in order to keep her visa status in the U.S. and avoid deportation to Canada."
+    },
+    {
+        "title": "Notting Hill",
+        "genre": "Romance",
+        "image": "Notting Hill.jpg",
+        "description": "The life of a simple bookshop owner changes when he meets the most famous film star in the world."
+    },
+    {
+        "title": "Dirty Dancing",
+        "genre": "Romance",
+        "image": "Dirty Dancing.jpg",
+        "description": "Spending the summer at a Catskills resort with her family, Frances 'Baby' Houseman falls in love with the camp's dance instructor, Johnny Castle."
+    },
+    {
+        "title": "Pretty Woman",
+        "genre": "Romance",
+        "image": "Pretty Woman.jpg",
+        "description": "A man in a legal but hurtful business needs an escort for some social events, and hires a beautiful prostitute he meets... only to fall in love."
+    },
+    {
+        "title": "Love Actually",
+        "genre": "Romance",
+        "image": "Love Actually.jpg",
+        "description": "Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England."
+    },
+    {
+        "title": "Before Sunset",
+        "genre": "Romance",
+        "image": "Before Sunset.jpg",
+        "description": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour."
+    },
+    {
+        "title": "Pan's Labyrinth",
+        "genre": "Fantasy",
+        "image": "Pan's Labyrinth.jpg",
+        "description": "In the Falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world."
+    },
+    {
+        "title": "Spirited Away",
+        "genre": "Fantasy",
+        "image": "Spirited Away.jpg",
+        "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+    },
+    {
+        "title": "Heat",
+        "genre": "Crime",
+        "image": "Heat.jpg",
+        "description": "A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist."
+    },
+    {
+        "title": "L.A. Confidential",
+        "genre": "Crime",
+        "image": "L.A. Confidential.jpg",
+        "description": "As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice."
+    },
+    {
+        "title": "Scarface",
+        "genre": "Crime",
+        "image": "Scarface.jpg",
+        "description": "In 1980 Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed."
+    },
+    {
+        "title": "Drive",
+        "genre": "Crime",
+        "image": "Drive.jpg",
+        "description": "A mysterious Hollywood stuntman and mechanic moonlights as a getaway driver and finds himself in trouble when he helps out his neighbor in this action drama."
+    },
+    {
+        "title": "Training Day",
+        "genre": "Crime",
+        "image": "Training Day.jpg",
+        "description": "On his first day on the job as a Los Angeles narcotics officer, a rookie cop goes beyond a full work day in training within the narcotics division of the LAPD with a rogue detective who isn't what he appears to be."
+    },
+    {
+        "title": "American Gangster",
+        "genre": "Crime",
+        "image": "American Gangster.jpg",
+        "description": "In 1970s America, a detective works to bring down the drug empire of Frank Lucas, a heroin kingpin from Manhattan, who is smuggling the drug into the country from the Far East."
+    },
+    {
+        "title": "Public Enemies",
+        "genre": "Crime",
+        "image": "Public Enemies.jpg",
+        "description": "The Feds try to take down notorious American gangsters John Dillinger, Baby Face Nelson, and Pretty Boy Floyd during a booming crime wave in the 1930s."
+    },
+    {
+        "title": "A Bronx Tale",
+        "genre": "Crime",
+        "image": "A Bronx Tale.jpg",
+        "description": "A father becomes worried when a local gangster befriends his son in the Bronx in the 1960s."
+    },
+    {
+        "title": "12 Angry Men",
+        "genre": "Drama",
+        "image": "12 Angry Men.jpg",
+        "description": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence."
+    },
+    {
+        "title": "The Pursuit of Happyness",
+        "genre": "Drama",
+        "image": "The Pursuit of Happyness.jpg",
+        "description": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional endeavor."
+    },
+    {
+        "title": "A Beautiful Mind",
+        "genre": "Drama",
+        "image": "A Beautiful Mind.jpg",
+        "description": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish."
+    },
+    {
+        "title": "The Revenant",
+        "genre": "Drama",
+        "image": "The Revenant.jpg",
+        "description": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team."
+    },
+    {
+        "title": "American History X",
+        "genre": "Drama",
+        "image": "American History X.jpg",
+        "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did."
+    },
+    {
+        "title": "The Lord of the Rings Trilogy",
+        "genre": "Fantasy",
+        "image": "The Lord of the Rings Trilogy.jpg",
+        "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+    },
+    {
+        "title": "Harry Potter Series",
+        "genre": "Fantasy",
+        "image": "Harry Potter Series.jpg",
+        "description": "A young wizard finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares."
+    },
+    {
+        "title": "Serendipity",
+        "genre": "Romance",
+        "image": "Serendipity.jpg",
+        "description": "A couple reunite years after the night they first met, fell in love, and separated, convinced that one day they'd end up together."
+    },
+    {
+        "title": "The Vow",
+        "genre": "Romance",
+        "image": "The Vow.jpg",
+        "description": "A car accident puts Paige in a coma, and when she wakes up with severe memory loss, her husband Leo works to win her heart again."
+    },
+    {
+        "title": "Moulin Rouge!",
+        "genre": "Romance",
+        "image": "Moulin Rouge!.jpg",
+        "description": "A poet falls for a beautiful courtesan whom a jealous duke covets in this stylish musical, with music drawn from familiar 20th-century sources."
+    },
+    {
+        "title": "Bridget Jones's Diary",
+        "genre": "Romance",
+        "image": "Bridget Jones's Diary.jpg",
+        "description": "A British woman is determined to improve herself while she looks for love in a year in which she keeps a personal diary."
+    },
+    {
+        "title": "Good Will Hunting",
+        "genre": "Drama",
+        "image": "Good Will Hunting.jpg",
+        "description": "Will Hunting, a janitor at M.I.T., has a gift for mathematics but needs help from a psychologist to find direction in his life."
+    },
+    {
+        "title": "A Clockwork Orange",
+        "genre": "Drama",
+        "image": "A Clockwork Orange.jpg",
+        "description": "In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned."
+    },
+    {
+        "title": "Schindler's List",
+        "genre": "Drama",
+        "image": "Schindler's List.jpg",
+        "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+    },
+    {
+        "title": "Saving Private Ryan",
+        "genre": "Drama",
+        "image": "Saving Private Ryan.jpg",
+        "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action."
+    },
+    {
+        "title": "The Dark Knight",
+        "genre": "Action",
+        "image": "The Dark Knight.jpg",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+    },    
+        {
+            "title": "The Addams Family",
+            "genre": "Fantasy",
+            "image": "The Addams Family.jpg",
+            "description": "The Addams family's lives begin to unravel when they face-off against a treacherous, greedy crafty reality-TV host while also preparing for their extended family to arrive for a major celebration."
+        },
+        {
+            "title": "Bridge to Terabithia",
+            "genre": "Fantasy",
+            "image": "Bridge to Terabithia.jpg",
+            "description": "A preteen's life is changed after befriending the new girl at school and creating an imaginary world together, only to have their friendship tested by tragedy."
+        },
+        {
+            "title": "The Golden Compass",
+            "genre": "Fantasy",
+            "image": "The Golden Compass.jpg",
+            "description": "In a parallel universe, young Lyra Belacqua journeys to the far North to save her best friend and other kidnapped children from terrible experiments by a mysterious organization."
+        },
+        {
+            "title": "The Last Airbender",
+            "genre": "Fantasy",
+            "image": "The Last Airbender.jpg",
+            "description": "In a world where people can manipulate the elements of Earth, Water, Fire, and Air, a young boy awakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, the chosen one who can bring balance to the world."
+        },
+        {
+            "title": "The BFG",
+            "genre": "Fantasy",
+            "image": "The BFG.jpg",
+            "description": "A young orphan girl, Sophie, befriends a benevolent giant dubbed the 'Big Friendly Giant,' who takes her to Giant Country, where they attempt to stop the man-eating giants from invading the human world."
+        },
+        {
+            "title": "Oz the Great and Powerful",
+            "genre": "Fantasy",
+            "image": "Oz the Great and Powerful.jpg",
+            "description": "A small-time magician with dubious ethics arrives in a magical land and must choose between becoming a good man or a great one, while also dealing with the various witches who vie for control of the realm."
+        },
+        {
+            "title": "Kill Bill: Vol. 1",
+            "genre": "Action",
+            "image": "Kill Bill Vol 1.jpg",
+            "description": "A former assassin, known simply as The Bride, seeks vengeance against her former allies who betrayed her on her wedding day."
+        },
+        {
+            "title": "Kill Bill: Vol. 2",
+            "genre": "Action",
+            "image": "Kill Bill Vol 2.jpg",
+            "description": "The Bride continues her quest of vengeance against her former boss and lover Bill, the reclusive bouncer Budd, and the treacherous, one-eyed Elle."
+        },
+        {
+            "title": "The Dark Knight Rises",
+            "genre": "Action",
+            "image": "The Dark Knight Rises.jpg",
+            "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."
+        },
+        {
+            "title": "Die Hard 2",
+            "genre": "Action",
+            "image": "Die Hard 2.jpg",
+            "description": "John McClane attempts to avert disaster as rogue military operatives seize control of Dulles International Airport in Washington, D.C."
+        },
+        {
+            "title": "Before Midnight",
+            "genre": "Romance",
+            "image": "Before Midnight.jpg",
+            "description": "In Greece, Jesse and Celine finally come together as a couple, but their love is tested by the realities of life, past experiences, and their differing perspectives on the future."
+        },
+        {
+            "title": "Crazy, Stupid, Love",
+            "genre": "Romance",
+            "image": "Crazy, Stupid, Love.jpg",
+            "description": "A middle-aged husband's life changes dramatically when his wife asks him for a divorce. He seeks to rediscover his manhood with the help of a newfound friend, Jacob, learning to navigate the complexities of love in the process."
+        },
+        {
+            "title": "The Time Traveler's Wife",
+            "genre": "Romance",
+            "image": "The Time Traveler's Wife.jpg",
+            "description": "A Chicago librarian suffers from a rare genetic disorder that causes him to time travel involuntarily as he tries to build a stable life with his wife despite the challenges posed by his condition."
+        },
+        {
+            "title": "Dear John",
+            "genre": "Romance",
+            "image": "Dear John.jpg",
+            "description": "A romantic drama about a soldier who falls for a conservative college student while he's home on leave, only for their relationship to be tested by the realities of war and separation."
+        },
+        {
+            "title": "The Holiday",
+            "genre": "Romance",
+            "image": "The Holiday.jpg",
+            "description": "Two women, one from England and one from Los Angeles, swap homes for the holidays to escape heartbreak and find love unexpectedly during their respective vacations."
+        },
+        {
+            "title": "About Time",
+            "genre": "Romance",
+            "image": "About Time.jpg",
+            "description": "A young man with the ability to time travel attempts to improve his life and find love, but soon realizes that changing the past can have unexpected consequences."
+        },
+        {
+            "title": "Atonement",
+            "genre": "Romance",
+            "image": "Atonement.jpg",
+            "description": "In 1935, a young girl accuses her older sister's lover of a crime he did not commit, leading to devastating consequences that affect the lives of everyone involved."
+        },
+        {
+            "title": "The Notebook",
+            "genre": "Romance",
+            "image": "The Notebook.jpg",
+            "description": "A poor yet passionate young man falls in love with a rich young woman, but their social differences and her disapproving parents threaten to tear them apart."
+        },
+        {
+            "title": "Carlito's Way",
+            "genre": "Crime",
+            "image": "Carlito's Way.jpg",
+            "description": "A Puerto Rican former convict, just released from prison, pledges to stay away from drugs and violence despite the pressure around him, but his criminal past and associates make it difficult to leave his old life behind."
+        },
+        {
+            "title": "Fargo",
+            "genre": "Crime",
+            "image": "Fargo.jpg",
+            "description": "Jerry Lundegaard's inept crime falls apart due to his and his henchmen's bungling and the persistent police work of the quite pregnant Marge Gunderson."
+        },
+        {
+            "title": "The Untouchables",
+            "genre": "Crime",
+            "image": "The Untouchables.jpg",
+            "description": "Federal Agent Eliot Ness sets out to stop Al Capone during Prohibition by forming an elite group of law enforcement officers to bring the notorious gangster to justice."
+        },
+        {
+            "title": "Gone Girl",
+            "genre": "Crime",
+            "image": "Gone Girl.jpg",
+            "description": "On his fifth wedding anniversary, Nick Dunne reports that his wife, Amy, has gone missing. Under pressure from the police and a growing media frenzy, Nick's portrait of a blissful union begins to crumble."
+        },
+        {
+            "title": "Se7en",
+            "genre": "Crime",
+            "image": "Se7en.jpg",
+            "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives."
+        },
+        {
+            "title": "The Departed",
+            "genre": "Crime",
+            "image": "The Departed.jpg",
+            "description": "An undercover cop and a mole in the police force attempt to identify each other while infiltrating an Irish gang in South Boston."
+        },
+        {
+            "title": "Prisoners",
+            "genre": "Crime",
+            "image": "Prisoners.jpg",
+            "description": "When Keller Dover's daughter and her friend go missing, he takes matters into his own hands as the police pursue multiple leads and the pressure mounts."
+        },
+        {
+            "title": "The Girl with the Dragon Tattoo",
+            "genre": "Crime",
+            "image": "The Girl with the Dragon Tattoo.jpg",
+            "description": "Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for forty years by Lisbeth Salander, a young computer hacker."
+        }
+    
+    
+]

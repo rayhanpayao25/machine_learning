@@ -1,0 +1,129 @@
+   
+body {
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #111;
+color: white;
+}
+
+header {
+background-color: #111;
+padding: 1rem;
+text-align: center;
+color: white;
+font-family: 'Roboto', sans-serif;
+}
+   
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: 0 auto;
+}
+   
+.navbar-brand {
+font-size: 24px;
+font-weight: bold;
+text-decoration: none;
+color: #fff;
+}
+
+.logout-btn {
+background-color: #e50914;
+color: white;
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+text-decoration: none;
+}
+
+form {
+text-align: center;
+margin-bottom: 1rem;
+}
+   
+label {
+font-weight: bold;
+font-size: 18px;
+color: #ccc;
+}
+   
+select {
+padding: 8px;
+font-size: 16px;
+margin-right: 1rem;
+background-color: #333;
+color: white;
+border: 1px solid #555;
+border-radius: 5px;
+}
+   
+button {
+padding: 8px 20px;
+font-size: 16px;
+background-color: #e50914;
+color: #fff;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+button:hover {
+ background-color: #ff0036;
+}
+          
+#sample-movies {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+           
+#sample-movies h2 {
+text-align: center;
+font-size: 24px;
+margin-bottom: 1rem;
+color: #ccc;
+}
+
+ul {
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+   
+li {
+margin: 0.5rem;
+flex: 0 0 calc(25% - 1rem);
+background-color: #222;
+border-radius: 5px;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+   
+li img {
+width: 100%;
+height: 70%;
+display: block;
+}
+   
+li p {
+padding: 1rem;
+margin: 0;
+font-size: 16px;
+color: #ccc;
+}
+
+  
+h1{
+font-size: 0.8em;
+font-weight: 100;
+margin: 0;
+padding: 1rem;
+  } 
+   

@@ -1,0 +1,120 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="short icon" type = "cinelect" href="{% static 'images/logos.png' %}"  > 
+
+    <title>CINELECT</title>
+</head>
+    <body>
+
+        
+    <header>
+        <h3>Cinelect</h3>
+        <div class="navbar">
+        <ul class="links">
+            <button class="btnLogin-popup"> Login</button>
+        </ul>
+    </div>
+    </header>
+        <section class="bg"> 
+
+            <div class = "name">
+                <h1>CINELECT</h1>
+                <p>A MOVIE RECOMMENDER</p>
+            </div>  
+
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+
+        <div class= "form-box login">
+            <h2>Login</h2>
+            <form method="post">
+                
+                {% csrf_token %} 
+            <div class = "input-box">
+                <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>     
+                <input type="text" placeholder = "Username" id="username" name="username">
+
+            </div>
+
+            <div class = "input-box">
+                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                <input type="password" placeholder = "Password" id="password" name="pass">
+        
+            </div>
+
+            <button type="submit"class = "btn"> Log In</button>
+
+            <div class = "login-register">
+            <p> Don't have an account?  <a 
+                 href="{% url 'login' %}" 
+                 class = "register-link">Register</a>
+            </p>
+        </div>
+            </form>
+        </div>
+
+         
+   
+        <div class= "form-box register">
+            <h2>Register</h2>
+            <form method="post">
+                
+        {% csrf_token %} 
+        <div class = "input-box">
+        
+        <input type="text" placeholder = "Username" name="username" id="username">
+        
+        </div>
+
+        <div class = "input-box">
+       
+        <input type="email" placeholder = "email" name="email" id="email">
+       
+    </div>
+
+
+     <div class = "input-box">
+        
+        <input type="password"placeholder = "Password"id="password1" name="password1">
+        
+    </div>
+
+     <div class = "input-box">
+       
+        <input type="password"placeholder = "Confirm Password"id="password2" name="password2">
+       
+    
+    </div>
+   
+    <button type="submit"class = "btn">  Register</button>
+    <div class = "login-register">
+        <p> Already have an account?  <a 
+             href="#" 
+             class = "login-link">Login</a>
+        </p>
+    </div>
+
+
+        
+    </form>
+</div>
+</div>
+</section> 
+
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <script src="{% static 'js/script.js' %}"></script>
+            
+ 
+
+      
+</body>
+</html>
