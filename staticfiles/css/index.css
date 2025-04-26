@@ -311,7 +311,7 @@ section {
 /* Mobile responsiveness for tablets and phones */
 @media (max-width: 1024px) {
   .name h1 {
-    font-size: 6em;
+    font-size: 3em;
     letter-spacing: 10px;
   }
 
@@ -352,7 +352,7 @@ section {
   }
 
   .name h1 {
-    font-size: 3.5em; /* Smaller title on tablets */
+    font-size: 2.5em; /* Smaller title on tablets */
     letter-spacing: 5px;
   }
 
@@ -386,7 +386,7 @@ section {
 
 @media (max-width: 480px) {
   .name h1 {
-    font-size: 2em; /* Much smaller title on mobile */
+    font-size: 1em; /* Much smaller title on mobile */
     letter-spacing: 2px;
   }
 
@@ -424,7 +424,7 @@ section {
 /* Extra small devices */
 @media (max-width: 320px) {
   .name h1 {
-    font-size: 1.5em; /* Even smaller title on very small devices */
+    font-size: 1em; /* Even smaller title on very small devices */
     letter-spacing: 1px;
   }
 
