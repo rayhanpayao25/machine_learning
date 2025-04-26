@@ -12,24 +12,21 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
-import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# Get secret key from environment variable or use a default one for development
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-default-key-for-development-only')
+SECRET_KEY = 'django-insecure-)7a3w4)qs=zydua2iv5oi00lrdy!*(1($-7o0wa^qy05n2wz6s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# Get DEBUG from environment variable, default to False for safety
-DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
+DEBUG = True
 
-# Allow all hosts by default, but ideally set ALLOWED_HOSTS in production
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
+ALLOWED_HOSTS = ['.onrender.com']
 
 # Application definition
 
@@ -40,13 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Add your apps here
-    'recommend',  # Replace with your actual app name
+    'recommend',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',  # Add WhiteNoise middleware here (after security and before others)
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -55,12 +51,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'movie_recommendation.urls'  # Replace with your project name if different
+ROOT_URLCONF = 'movie_recommendation.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],  # Add your template directories here
+        'DIRS': ["templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -68,17 +64,20 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.static'
             ],
         },
     },
 ]
 
-WSGI_APPLICATION = 'movie_recommendation.wsgi.application'  # Replace with your project name if different
+
+WSGI_APPLICATION = 'movie_recommendation.wsgi.application'
+
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# Default SQLite database for development
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -86,12 +85,6 @@ DATABASES = {
     }
 }
 
-# Use PostgreSQL on Render if DATABASE_URL is provided
-if 'DATABASE_URL' in os.environ:
-    DATABASES['default'] = dj_database_url.config(
-        conn_max_age=600,
-        conn_health_checks=True,
-    )
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -111,6 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
@@ -122,57 +116,30 @@ USE_I18N = True
 
 USE_TZ = True
 
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-# URL prefix for static files
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-# The absolute path to the directory where collectstatic will collect static files for deployment
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# Extra places for collectstatic to find static files
+
+STATICFILES_FINDERS = [
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+]
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
-# WhiteNoise configuration for serving static files efficiently
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# Media files (user-uploaded files)
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Security settings for production
-if not DEBUG:
-    # Redirect all HTTP requests to HTTPS
-    SECURE_SSL_REDIRECT = True
-    
-    # Set to True to avoid transmitting the CSRF cookie over HTTP accidentally
-    CSRF_COOKIE_SECURE = True
-    
-    # Set to True to avoid transmitting the session cookie over HTTP accidentally
-    SESSION_COOKIE_SECURE = True
-    
-    # Set to True to use a secure cookie for the CSRF cookie
-    SECURE_HSTS_SECONDS = 31536000  # 1 year
-    
-    # Include subdomains in security policy
-    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-    
-    # Prevent clickjacking
-    X_FRAME_OPTIONS = 'DENY'
-    
-    # Help prevent XSS attacks
-    SECURE_BROWSER_XSS_FILTER = True
-    
-    # Help prevent MIME type sniffing
-    SECURE_CONTENT_TYPE_NOSNIFF = True
-    
-    # For Render, which uses proxies
-    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
